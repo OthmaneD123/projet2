@@ -1,5 +1,116 @@
-.menu{
-    text-decoration: none;
+                                /* GENERAL */
+body {
+    font-family : 'Raleway', sans-serif ;
+}
+
+                                /* MENU */
+.menu {
+    display: flex;/* Cela permet que les liens sois aligner avec le logo */
+    justify-content: space-between;/* Les liens pourront aller tout a droite de la page */
+}
+
+.liens{
+    display: flex;
+    
+    justify-content: space-around;/* Pour qu'il y est un espace entre chaque liens*/
+    width: 30%; /* Sans la with on ne voyait aucun espace entre les liens */ 
+    height: 99px;/* Grace a sa je vais pouvoir mettre le trait au dessus de hebergement tout en haut comme sur la maqutte*/
+    align-items: center;    /*^Pour que les liens soit a la meme hauteur que le logo*/
+    text-decoration: none; /* Retire le trait en dessous de chaque liens  */
+    
+    
+}
+
+.hebergement {
+    border-top: 1px solid blue;
+}
+
+nav img {
+    width: 90px;
+    height: 70px;
+}
+
+
+.barre {
     display: flex;
 }
 
+.search {
+    font-weight: bold;
+    background-color: red;
+
+}
+.rechercher input{
+    font-size: bold;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 0 25% 25% 0;
+}
+                            /* HEADER */
+.filtres{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+ .icone {
+     border-radius: 50%;
+     
+
+ }
+
+ .borderfiltres{
+     border-radius: 20%;
+     border: 1px solid grey;
+
+ }
+
+                             /* SECTION */
+                             /*HEBERGEMENT*/
+ .grand_bloc{
+     display: flex;
+     justify-content: space-around;
+ }                            
+ .bloc1  {
+     display: flex;
+     justify-content: space-around;
+     background-color: #F2F2F2;
+
+ }                                             
+ .bloc1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    background-color: #F2F2F2;
+
+ }
+ .i{
+     background-color: white;
+     width: ;
+     height: ;
+     border-radius: ;
+ }        
+ .bloc1 img{
+        
+     height: 50px;
+     width: 70px;
+ }
+ .bloc2{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center    ;
+     background-color: #F2F2F2;
+
+ }
+ .bloc2 img{
+
+     height: 50px;
+     width: 70px;
+ }
+
+ 

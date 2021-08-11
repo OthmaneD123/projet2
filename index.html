@@ -1,46 +1,51 @@
 <!DOCTYPE html>
-<html lang="Fr">
+<html lang="fr">
 <head>
     <meta charset="utf-8"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https : //fonts.googleapis.com/css2? family= Raleway:ital,wght@1,300 & display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/98cf4e9f2f.js" crossorigin="anonymous"></script>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <script src="https://kitfontawesomeom/de4b82448d.js"crossorigin="anonymous"></script>
     <title>Projet_02</title> 
 </head>
 
 <body>
                              <!--HEADER-->
     <header>
-
-        <img src="images/logo/Reservia@3x.png" alt="logo reservia">
-
         <nav>
-            <ul class="menu">
-                <li><a href="#">Hebergement</a></li>
-                <li><a href="#">Activités</a></li>
-                <li><a href="#">S'incrire</a></li>
-            </ul>
+            <div class="menu">
+                    <img src="images/logo/Reservia@3x.png" alt="logo reservia">
+                    <div class="liens">
+                        <div class="hebergement">
+                            <a href="#">Hebergement</a>
+                        </div>
+                            <a href="#">Activités</a>
+                            <a href="#">S'incrire</a>
+                    </div>
+            </div>
         </nav>
     </header>
 
     <section>
     <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-
         <p>En plein centre-ville ou en pleine nature</p>
-
-        <form method="post" action="">
-            <input type="text" name="barre de recherche" placeholder="Montpellier,France">
-            <input type="submit" value="Rechercher">
-        </form>
-
+            <div class="barre">
+                <div class="icone"><i class="fa-solid fa-location-dot"></i></div>
+                <form method="post" action="">
+                    <div class="Search"><input type="text" name="barre de recherche" placeholder="Montpellier,France"></div>
+                    <div class="rechercher"><input type="submit" value="Rechercher"></div>
+                </form>
+            </div>  
        <div>
            <nav>
-               <ul>
-                   <li>Filtres</li>
-                   <li>Economiques</li>
-                   <li>Familial</li>
-                   <li>Romantique</li>
-                   <li>Animaux autorisés</li>
-               </ul>
+            <div class="filtres">
+                <h3>Filtres</h3> 
+                <div class="borderfiltres"><i class=" icone fa-solid fa-money-bill"></i>Economiques</div>
+                <div class="borderfiltres"><i class=" icone fa-solid fa-child"></i> Familial </div>
+                <div class="borderfiltres"><i class=" icone fa-solid fa-heart"></i>Romantique </div>
+                <div class="borderfiltres"><i class=" icone fa-solid fa-pinata"></i>Animaux autorisés</div>
+            </div>
            </nav>
        </div>
 
@@ -48,26 +53,64 @@
         </section>
 
         <section>
+            <div class="grand_bloc">
             <article class="bloc1">
-                <h1>Hébergements a Marseille</h1>
-                    <img src="images/hebergements/4_small/image_1.jpg" alt="">
-                    <img src="images/hebergements/4_small/image_2.jpg" alt="">
-                    <img src="images/hebergements/4_small/image_3.jpg" alt="">
-                    <img src="images/hebergements/4_small/image_4.jpg" alt="">
-                    <img src="images/hebergements/4_small/image_5.jpg" alt="">
-                    <img src="images/hebergements/4_small/image_6.jpg" alt="">
+                <h2>Hébergements a Marseille</h2>
+                    <div class="i">
+                        <img src="images/hebergements/4_small/image_1.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
+                    <div>
+                        <img src="images/hebergements/4_small/image_2.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
+                    <div>
+                        <img src="images/hebergements/4_small/image_3.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
+                    <div>
+                        <img src="images/hebergements/4_small/image_4.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
+                    <div>
+                        <img src="images/hebergements/4_small/image_5.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
+                    <div>
+                        <img src="images/hebergements/4_small/image_6.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                     </div>
                         <p>Afficher Plus</p>
             </article>
 
             <article class="bloc2">
-                <h1>Les plus populaires</h1>
+                <h2>Les plus populaires</h2>
+                    <div>
                     <img src="images/hebergements/4_small/image_7.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
+                    <div>
                     <img src="images/hebergements/4_small/image_8.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
+                    <div>
                     <img src="images/hebergements/4_small/image_9.jpg" alt="">
+                        <h5>Auberge la Cannebière</h5>
+                        <p>Nuit à partir de 52  $</p>
+                    </div>
             </article>
+            </div>
 
             <article class="bloc3">
-                <h1>Les activités à Marseille</h1>
+                <h2>Les activités à Marseille</h2>
 
                     <img src="images/activites/4_small/image_1.jpg" alt="">
 
@@ -86,7 +129,7 @@
     <footer>
         <section>
             <div class="propos">
-            <h2>A propos</h2>
+            <h3>A propos</h3>
                 <nav>
                     <ul>
                         <li><a href="#">Fonctionnement du site</a></li>
@@ -96,7 +139,7 @@
                 </nav>
             </div>
             <div class="hébergements">
-                <h2>Nos hébergements</h2>
+                <h3>Nos hébergements</h3>
                     <nav>
                         <ul>
                             <li><a href="#">Charte qualité</a></li>
@@ -105,7 +148,7 @@
                     </nav>
                 </div>
                 <div class="Assistance">
-                    <h2>Assistance</h2>
+                    <h3>Assistance</h3>
                         <nav>
                             <ul>
                                 <li><a href="#">Centre d'aide</a></li>
