@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https : //fonts.googleapis.com/css2? family= Raleway:ital,wght@1,300 & display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@1,300,400,700&display=swap" rel="stylesheet">  
     <script src="https://kit.fontawesome.com/98cf4e9f2f.js" crossorigin="anonymous"></script>
     <link type="text/css" rel="stylesheet" href="style.css">
     <title>Projet_02</title> 
@@ -32,10 +32,11 @@
               <p>En plein centre-ville ou en pleine nature</p>
                 <div class="barre">
                     
-                    <form method="post" action="">
-                        <div class="maps"><i class="  fa fa-map-pin"></i></div>
-                        <div class="Search"><input type="text" name="barre de recherche" placeholder="Montpellier,France"></div>
-                        <div ><input class="rechercher" type="submit" value="Rechercher"></div>
+                    <form >
+                        <div class="maps"><i class="  fas fa-map-marker-alt"></i></div>
+                        <div class="BarreDeRecherche"><input type="text" name="barre de recherche" placeholder="Montpellier,France"></div>
+                        <div><button class="rechercher fas fa-search">Rechercher</button></div>
+                        
                     </form>
                 </div>  
        
@@ -67,6 +68,7 @@
                 <h3 class="Titre">Hébergement a Marseille</h3>
                 <div class="BlocImg">
                     <div  class="BackgroundImgHebergement">
+                        <div class="Border">
                          <div ><img src="images/hebergements/4_small/image_1.jpg" alt=""></div>
                             <div class="TextImg">
                                 <h5>Auberge la Cannebière</h5>
@@ -76,13 +78,15 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class=" Gris fa fa-star"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
                     
                     <div class="BackgroundImgHebergement">
-                        <div ><img src="images/hebergements/4_small/image_2.jpg" alt=""></div>
+                        <div class="Border">
+                           <div ><img src="images/hebergements/4_small/image_2.jpg" alt=""></div>
                             <div class="TextImg">
                                 <h5>Auberge la Cannebière</h5>
                                 <p>Nuit a partir de 25$</p>
@@ -94,9 +98,11 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
                     <div class="BackgroundImgHebergement">
-                        <div ><img src="images/hebergements/4_small/image_3.jpg" alt=""></div>
+                        <div class="Border">
+                          <div ><img src="images/hebergements/4_small/image_3.jpg" alt=""></div>
                             <div class="TextImg">
                                 <h5>Auberge la Cannebière</h5>
                                 <p>Nuit a partir de 25$</p>
@@ -105,27 +111,31 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class="Gris fa fa-star"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
                     <div class="BackgroundImgHebergement">
+                        <div class="Border">
                         <div ><img src="images/hebergements/4_small/image_4.jpg" alt=""></div>
-                            <div>
+                            <div class="TextImg">
                                 <h5>Auberge la Cannebière</h5>
                                 <p>Nuit a partir de 25$</p>
                                 <div class="IconeStar">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class="Gris fa fa-star"></i>
+                                    <i class="Gris fa fa-star"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
                     <div class="BackgroundImgHebergement">
+                        <div class="Border">
                          <div ><img src="images/hebergements/4_small/image_5.jpg" alt=""></div>
-                            <div>
+                            <div class="TextImg">
                                 <h5>Auberge la Cannebière</h5>
                                 <p>Nuit a partir de 25$</p>
                                 <div class="IconeStar">
@@ -133,13 +143,15 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class="Gris fa fa-star"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
                     <div class="BackgroundImgHebergement">
+                        <div class="Border">
                         <div ><img src="images/hebergements/4_small/image_6.jpg" alt=""></div>
-                            <div>
+                            <div class="TextImg">
                                 <h5>Auberge la Cannebière</h5>
                                 <p>Nuit a partir de 25$</p>
                                 <div class="IconeStar">
@@ -150,6 +162,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
                  </div>
                     <p class="Afficher_Plus">Afficher Plus</p>
@@ -162,20 +175,6 @@
                            <h5>Auberge la Cannebière</h5>
                            <p>Nuit a partir de 25$</p>
                            <div class="IconeStar">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                       </div>
-               </div>
-                    <div  class="BackgroundImgPopulaire">
-                        <div ><img src="images/hebergements/4_small/image_8.jpg" alt=""></div>
-                        <div>
-                            <h5>Auberge la Cannebière</h5>
-                            <p>Nuit a partir de 25$</p>
-                            <div class="IconeStar">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -183,10 +182,24 @@
                                 <i class="fa fa-star"></i>
                             </div>
                         </div>
+               </div>
+                    <div  class="BackgroundImgPopulaire">
+                        <div ><img src="images/hebergements/4_small/image_8.jpg" alt=""></div>
+                        <div class="TextImg">
+                            <h5>Auberge la Cannebière</h5>
+                            <p>Nuit a partir de 25$</p>
+                            <div class="IconeStar">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="Gris fa fa-star"></i>
+                            </div>
+                        </div>
                 </div>
                 <div  class="BackgroundImgPopulaire">
                     <div ><img src="images/hebergements/4_small/image_9.jpg" alt=""></div>
-                    <div>
+                    <div class="TextImg">
                         <h5>Auberge la Cannebière</h5>
                         <p>Nuit a partir de 25$</p>
                         <div class="IconeStar">
@@ -194,7 +207,7 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
+                            <i class="Gris fa fa-star"></i>
                         </div>
                     </div>
              </div>
@@ -205,12 +218,31 @@
         <section>
             <h2>Activiés a Marseilles</h2>
             <div class="parent">
-                <div class="div1"><img src="images/activites/4_small/image_1.jpg" alt=""> </div>
-                <div class="div2"><img src="images/activites/4_small/image_2.jpg" alt="">  </div>
-                <div class="div3"><img src="images/activites/4_small/image_3.jpg" alt=""> </div>
-                <div class="div4"><img src="images/activites/4_small/image_4.jpg" alt="">  </div>
-                <div class="div5"><img src="images/activites/4_small/image_5.jpg" alt="">  </div>
-                <div class="div6"><img src="images/activites/4_small/image_6.jpg" alt="">  </div>
+                <div class="div1">
+                    <img src="images/activites/4_small/image_1.jpg" alt=""> 
+                    <p>Vieux Port</p>
+                </div>
+                <div class="div2">
+                   <img src="images/activites/4_small/image_2.jpg" alt=""> 
+                    <p>Vieux Port</p>
+                </div>
+                <div class="div3">
+                    <img src="images/activites/4_small/image_3.jpg" alt=""> 
+                    <p>Vieux Port</p>
+                </div>
+                <div class="div4">
+                    <img src="images/activites/4_small/image_4.jpg" alt="">  
+                    <p>Parc national des Calanques</p>
+                </div>
+                <div class="div5">
+                    <img src="images/activites/4_small/image_5.jpg" alt="">  
+                    <p>Notre-Dame-de-la-Garde</p>
+                </div>
+                <div class="div6">
+                   <img src="images/activites/4_small/image_6.jpg" alt="">  
+                    <p>Parc Longchamps</p>
+                </div>
+                
                 </div> >
         </section>
                             <!--FOOTER-->
