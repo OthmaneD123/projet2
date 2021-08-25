@@ -3,44 +3,45 @@ body {
     font-family : 'Raleway', sans-serif ;
     margin: 0 auto;
     max-width: 1400px;
+    line-height: 1;
 }
 
 
                                 /* MENU */
 .menu {
     display: flex;/* Cela permet que les liens sois aligner avec le logo */
-    justify-content: space-between;/* Les liens pourront aller tout a droite de la page */
-    width: 100%;
+    
 }
 
 .liens{
     display: flex;
-    
-    justify-content: space-around;/* Pour qu'il y est un espace entre chaque liens*/
-    width: 30%; /* Sans la with on ne voyait aucun espace entre les liens */ 
-    height: 99px;/* Grace a sa je vais pouvoir mettre le trait au dessus de hebergement tout en haut comme sur la maqutte*/
-    align-items: center;    /*^Pour que les liens soit a la meme hauteur que le logo*/
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    /*justify-content: space-around;/* Pour qu'il y est un espace entre chaque liens*/
+    /*width: 30%; /* Sans la with on ne voyait aucun espace entre les liens */ 
+   /* height: 99px;/* Grace a sa je vais pouvoir mettre le trait au dessus de hebergement tout en haut comme sur la maqutte*/
+    /*align-items: center;    /*^Pour que les liens soit a la meme hauteur que le logo*/
+    /**/
 }
+.LienHebergement {
+    padding: 30px;
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+.LienActivite{
+    padding: 30px 30px 30px 0;
+    color: black;
+}
+ .LienSinscrire{
+    color: #0065FC;
+ }
  nav a {
     text-decoration: none; /* Retire le trait en dessous de chaque liens  */
-    
-
-
  }
- .activite{
-     color: black;
- }
-.hebergement {
-   
-    border-top: 10px solid blue;
-    padding-top: 40px;
-
-}
-
-
 nav img {
-    width: 130px;
-    height: 80px;
+    width:  130px;
+    height: auto;
 }
 
 
@@ -108,14 +109,15 @@ nav img {
 }
 .borderfiltre{
     display: flex;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+
     
 }
 .texticone {
     height: 40px;
     padding-left: 15px;
     padding-right: 20px;
-    border: 2px solid #F2F2F2; 
-    border-radius: 0 20px 20px 0 ;
     display: flex;
     align-items: center;
     margin-left: -15px;
@@ -134,7 +136,6 @@ nav img {
     border: 1px solid #F2F2F2;
     margin-right: 15px;
     margin-left: 15px;
-    
     color: blue;
 }
 
@@ -149,7 +150,7 @@ nav img {
      background-color: #F2F2F2;
      border-radius: 20px;
      width: 70%;
-     height: 650px;
+     
      margin-right: 20px;
  }
  
@@ -204,7 +205,6 @@ nav img {
      background-color: #F2F2F2;
      border-radius: 20px;
      width: 30%;
-     height: 650px;
      margin-left: 20px;
  }
 .Backgroundbloc2 img {
@@ -259,6 +259,32 @@ section .parent .div4 img{
 section .parent p{
     font-weight: bold;
 }
+.div1 {
+    box-shadow: 1px 1px 1px 1px red;
+    
+}
+.div2 {
+    box-shadow: 1px 1px 1px 1px red;
+    margin-right: 0;
+    
+}
+.div3 {
+    box-shadow: 1px 1px 1px 1px red;
+    
+}
+.div4 {
+    box-shadow: 1px 1px 1px 1px red;
+    
+}
+.div5 {
+    box-shadow: 1px 1px 1px 1px red;
+    
+}
+.div6 {
+    box-shadow: 1px 1px 1px 1px red;
+   
+    
+}
 
 
 
@@ -295,7 +321,7 @@ footer section div nav a {
 }
 
                     /*  PARTI MOBILE */
-@media all and (max-width: 1080px) 
+/*@media all and (max-width: 1080px) 
 {
     .liens{
         flex-wrap: wrap;
@@ -321,4 +347,4 @@ footer section div nav a {
     .Footers{
         flex-direction: column;
     }
-}
+}*/
