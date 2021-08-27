@@ -284,19 +284,7 @@ section .parent .div4 img{
    
 } 
 
-/*
-section .parent p{
-    font-weight: bold;
-    box-shadow: 12px 12px 2px 1px rgba(127, 127, 130, 0.687);
-    border-radius: 0 0 20px 20px  ;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    
-}
-section .parent  img{
-    box-shadow: 12px 12px 2px 1px rgba(127, 127, 130, 0.687);
-    border-radius:  20px 20px 0 0  ;
-}*/
+
 section .parent  div{
     box-shadow: 5px 5px rgba(127, 127, 130, 0.687);
     border-radius:  20px  ;
@@ -342,14 +330,25 @@ footer section div nav a {
                  /*******MENU********/
     .menu{
         flex-wrap: wrap;
+        width: 100%;
     }
     .liens{
         flex-wrap: wrap;
+        width: 80%;
     }
     .LienHebergement{
         border-bottom: 2px solid #0065FC;
         border-top: none;
-        flex-wrap: wrap;
+        padding-bottom: 10px;
+        width: 50%;
+    }
+    .LienActivite{
+        width: 50%;
+    }
+    .LienSinscrire{
+        display: flex;
+        align-items: flex-start;
+        
     }
    
                  /*******BARRE DE RECHERCHE********/
@@ -358,10 +357,20 @@ footer section div nav a {
     }
     .Loupe{
         display: flex;
-        color: black;
+        justify-content: center;
+        font-size: medium;
+        color: white;
     }
+    section input{
+        border: transparent;
+    }
+    .rechercher{
+        border-radius: 30%;
+        width: 50px;
+        
+    }
+                /*******FILTRES********/
     .filtres{
-      
         flex-wrap: wrap;
         
     }
@@ -381,13 +390,11 @@ footer section div nav a {
         
     }
     .Border{
-        box-shadow: 12px 12px 2px 1px rgba(127, 127, 130, 0.687);
+        box-shadow: 5px 5px  rgba(127, 127, 130, 0.687);
     }
   
                 /*******BLOC POPULAIRE********/
-    .Backgroundbloc2{
-        width: 100%;
-    }
+    
     .BackgroundImgPopulaire{
         width: 100%;
     }
