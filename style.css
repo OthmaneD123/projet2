@@ -54,11 +54,6 @@ nav img {
     
 
 }
-/*.barre{
-    display: flex;
-    align-items: center;
-   
-}*/
 .maps{
     height: 50px;
     width: 40px;
@@ -76,7 +71,7 @@ input {
     color:  black;
     font-weight: bold;
     height: 40px;
-    width: 150px;
+    width: 200px;
 }
 .rechercher{
     height: 50px;
@@ -90,6 +85,9 @@ input {
 
 .Loupe{
     display: none;
+}
+button{
+    border: none;
 }
 
                             /* FILTRES */ 
@@ -248,16 +246,7 @@ margin-left: 10px;
 padding-right: 50px;
 width: 100%;
 }
-.parent div img{
-    width: 100%;
-}
-section .parent .div1 img{
-    height: 85%;
-    
-}
-section .parent .div4 img{
-    height: 85%;
-}
+
 
 .div1 {
      grid-area: 1 / 1 / 3 / 2;
@@ -289,7 +278,7 @@ section .parent .div4 img{
 
 
 section .parent  div{
-    box-shadow: 5px 5px rgba(127, 127, 130, 0.687);
+    box-shadow: 5px 5px 3px #F2F2F2;
     border-radius:  20px  ;
 
 }
@@ -374,14 +363,26 @@ footer section div nav a {
         width: 50px;
         
     }
+    button {
+        border:none;
+    }
                 /*******FILTRES********/
     .filtres{
         
         flex-direction: column;
         align-items: flex-start;
+    }
+    .cadreicone{
+        
+        margin-left: 1px;
+    }
+    
+    .Familial {
+        position: absolute;
+        top: 300px;
+        right: 0;
         
     }
-
 
                  /*******BLOC HEBERGEMENT********/
     .Grandbloc{
@@ -421,23 +422,27 @@ footer section div nav a {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 15px;
+        grid-row-gap: 0px;
+        
         
     }
 
-    .div1 { grid-area: 1 / 1 / 2 / 2;
-     }
-    .div2 { grid-area: 2 / 1 / 3 / 2;
-     }
-    .div3 { grid-area: 3 / 1 / 4 / 2;
-     }
+    .div1 { grid-area: 1 / 1 / 2 / 2;}
+    .div2 { grid-area: 2 / 1 / 3 / 2;}
+    .div3 { grid-area: 3 / 1 / 4 / 2;}
     .div4 { grid-area: 4 / 1 / 5 / 2;}
-    .div5 { grid-area: 5 / 1 / 6 / 2;
-     }
+    .div5 { grid-area: 5 / 1 / 6 / 2;}
     .div6 { grid-area: 6 / 1 / 7 / 2;
-     } 
+    } 
+
+    .parent div img {
+        height: auto;
+    }
     
-    
+    .parent div p {
+        margin: 0;
+        padding: 0;
+    }
 
             /*******FOOTERS********/
     .Footers{
