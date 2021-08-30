@@ -5,16 +5,12 @@ body {
     max-width: 1400px;
     line-height: 1;
 }
-
                                 /* MENU */
 .menu {
     display: flex;
     align-items: center;/* Cela permet que les liens sois aligner avec le logo */
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;   
 }
-
 .liens{
    display: flex;
    justify-content: end;/* Pour que les liens sois tout a droite de la page internet*/
@@ -30,8 +26,7 @@ body {
 }
  .LienSinscrire{
     color: #0065FC;
-    padding: 30px;
-    
+    padding: 30px;  
  }
  nav a {
     text-decoration: none; /* Retire le trait en dessous de chaque liens  */
@@ -40,19 +35,11 @@ nav img {
     width:  130px;
     height: auto;
 }
-
-
-
-
-
-
                             /* HEADER */
                             /* BARRE DE RECHERCHE */
  form{
     display: flex;
     align-items: center;/* Cela permet que les trois div licone la barre de recherche et ke boutton soit bien aligner*/
-    
-
 }
 .maps{
     height: 50px;
@@ -61,8 +48,7 @@ nav img {
     justify-content: center;
     align-items: center;
     background-color: #F2F2F2;
-    border-radius: 20px 0 0 20px;
-    
+    border-radius: 20px 0 0 20px;  
 }
 .barre{
     border-radius: 20px;
@@ -82,14 +68,12 @@ input {
     border-radius: 0 20px 20px 0 ;
     margin-left: -15px;
 }
-
 .Loupe{
     display: none;
 }
 button{
     border: none;
 }
-
                             /* FILTRES */ 
 .filtres{
     display: flex;
@@ -107,8 +91,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
-    
+    z-index: 1; 
 }
 
 .borderfiltre{
@@ -122,8 +105,7 @@ button{
     margin-left: -15px;
     border-radius: 0 20px 20px 0;
     border: 2px solid #F2F2F2;
-    box-shadow: 5px 5px  #F2F2F2 ;
-
+    box-shadow: 5px 5px 3px #F2F2F2 ;
 }
 .TextInfo{
     display: flex;
@@ -146,16 +128,13 @@ button{
                              /*HEBERGEMENT*/
 .Grandbloc{
     display: flex;
-    
 }
  .Backgroundbloc1{
      background-color: #F2F2F2;
      border-radius: 20px;
      width: 70%;
-     
      margin-right: 20px;
  }
- 
  .Backgroundbloc1 div img {
      width: 100%;
      height: 110px;
@@ -165,8 +144,7 @@ button{
  }
  .BlocImg {
      display: flex;
-     flex-wrap: wrap;
-     
+     flex-wrap: wrap;   
  }
  .BlocImg div{ /* Cette parti sert a mettre de la marge interieur dans le bloc de l'image a gaucher et droite*/  
     padding-left: 3px; 
@@ -180,7 +158,11 @@ button{
     background: white;
     border-radius: 20px;
     margin: 0 18px 18px 18px;
-    padding: 6px;
+    padding: 6px ;
+}
+.TextImg{
+    margin-top: -20px;
+    padding-left: 25px;
 }
  .IconeStar{
      color: blue;
@@ -198,11 +180,6 @@ button{
      font-weight: bold;
     
  }
- .TextImg{
-     
-     margin-top: -20px;
-     padding-left: 25px;
- }
                             /*Populaire*/
 
 .Backgroundbloc2{
@@ -215,7 +192,6 @@ button{
      width: 100%;
      height: 110px;
      border-radius: 15px 0 0 15px;
-
 }
 
  .BackgroundImgPopulaire{
@@ -228,70 +204,54 @@ button{
 
                             /*ACTIVITE A MARSEILLES*/   
 section .parent  img {
-     width: 95%;
-     height: 110px;
+     width: 100%;
+     height: 130px;
      border-radius: 15px 15px 0 0;
-     object-fit: cover;
-     
-     
-
  }
 .parent {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 10px;
-grid-row-gap: 30px;
-margin-left: 10px;
-padding-right: 50px;
-width: 100%;
+grid-column-gap: 30px;
+grid-row-gap: 20px;
+margin: 0 5px 50px 5px;
 }
 
 
-.div1 {
-     grid-area: 1 / 1 / 3 / 2;
-     margin: 10px;
-     
-}
-.div2 { 
-    grid-area: 1 / 2 / 2 / 3; 
-    margin: 10px;
-}
-.div3 { 
-    grid-area: 2 / 2 / 3 / 3; 
-    margin: 10px;
-}
-.div4 { 
-    grid-area: 1 / 3 / 3 / 4; 
-    margin: 10px;
-}
-.div5 {
-     grid-area: 1 / 4 / 2 / 5;
-     margin: 10px 20px 10px 10px;
-     
-}
-.div6 {
-     grid-area: 2 / 4 / 3 / 5; 
-     margin: 10px 20px 10px 10px;
-   
-} 
+.div1 {grid-area: 1 / 1 / 3 / 2;}
+.div2 {grid-area: 1 / 2 / 2 / 3;}
+.div3 {grid-area: 2 / 2 / 3 / 3;}
+.div4 {grid-area: 1 / 3 / 3 / 4;}
+.div5 {grid-area: 1 / 4 / 2 / 5;}
+.div6 {grid-area: 2 / 4 / 3 / 5;} 
 
 
 section .parent  div{
     box-shadow: 5px 5px 3px #F2F2F2;
-    border-radius:  20px  ;
-
-}
-section .parent p{
+    border-radius:  20px;
     
-    width: 100%;
+}
+section .parent  .div1 img{
+    height: 90%;
+    object-fit: cover;
+}
+section .parent  .div4 img{
+    height: 90%;
+    object-fit: cover; 
+}
+section .parent div p{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+section .parent .div1 p{
+    padding-top: 1px;
+}
+section .parent .div4 p{
+    padding-top: 1px;
 }
 
-
-
-
-
-    
                             /* FOOTERS */
 .Footers{
     background-color: #F2F2F2;
@@ -299,7 +259,6 @@ section .parent p{
     width: 100%;
     
 }
-
 footer section div nav a {
     display: flex;
     flex-direction: column;
@@ -422,38 +381,51 @@ footer section div nav a {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        
-        
+        grid-row-gap: 20px; 
+    }
+    .div1 {grid-area: 1 / 1 / 2 / 2;}
+    .div2 {grid-area: 2 / 1 / 3 / 2;}
+    .div3 {grid-area: 3 / 1 / 4 / 2;}
+    .div4 {grid-area: 4 / 1 / 5 / 2;}
+    .div5 {grid-area: 5 / 1 / 6 / 2;}
+    .div6 {grid-area: 6 / 1 / 7 / 2;} 
+    section .parent div img {
+        width: 100%;
+        height: 110px;
+        object-fit: cover;
+    }
+    section .parent .div1 img {
+        width: 100%;
+        height: 110px;
+        object-fit: cover;
+    }
+    section .parent .div4 img {
+        width: 100%;
+        height: 110px;
+        object-fit: cover;
+    }
+    section .parent div{
+        box-shadow: 5px 5px 3px #F2F2F2;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    section .parent div p{
+        padding-left: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
     }
 
-    .div1 { grid-area: 1 / 1 / 2 / 2;}
-    .div2 { grid-area: 2 / 1 / 3 / 2;}
-    .div3 { grid-area: 3 / 1 / 4 / 2;}
-    .div4 { grid-area: 4 / 1 / 5 / 2;}
-    .div5 { grid-area: 5 / 1 / 6 / 2;}
-    .div6 { grid-area: 6 / 1 / 7 / 2;
-    } 
 
-    .parent div img {
-        height: auto;
-    }
-    
-    .parent div p {
-        margin: 0;
-        padding: 0;
-    }
 
             /*******FOOTERS********/
     .Footers{
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;   
     }
     .Footers1{
         padding: 15px;
         width: 100%;
-
     }
     .Footers2{
         padding: 15px;
