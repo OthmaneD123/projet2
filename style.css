@@ -40,6 +40,7 @@ nav img {
  form{
     display: flex;
     align-items: center;/* Cela permet que les trois div licone la barre de recherche et ke boutton soit bien aligner*/
+    margin-bottom: 30px;
 }
 .maps{
     height: 50px;
@@ -200,6 +201,10 @@ button{
     border-radius: 20px;
     display: flex;
     align-items: center;
+}
+.Titre{
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
                             /*ACTIVITE A MARSEILLES*/   
