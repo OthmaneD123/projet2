@@ -333,20 +333,24 @@ footer section div nav a {
                 /*******FILTRES********/
     .filtres{
         
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: flex-start;
     }
     .cadreicone{
         
         margin-left: 1px;
     }
+    .filtres h3 {
+        width: 100%;
+    }
     
-    .Familial {
+    /*.Familial {
         position: absolute;
         top: 300px;
         right: 0;
         
-    }
+    }*/
 
                  /*******BLOC HEBERGEMENT********/
     .Grandbloc{
@@ -429,15 +433,76 @@ footer section div nav a {
         align-items: center;   
     }
     .Footers1{
-        padding: 15px;
+        
         width: 100%;
     }
     .Footers2{
-        padding: 15px;
+        
         width: 100%;
     }
     .Footers3{
-        padding: 15px;
+        
         width: 100%;
     }
+}
+@media all and (min-width:780px) {
+    .Grandbloc{
+        flex-wrap: wrap;
+    }
+    /********BLOC HEBERGEMENT***************/
+    .Backgroundbloc1{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .BackgroundImgHebergement{
+        width: 45%;
+        flex-wrap: wrap;
+    }
+    /********BLOC POPULAIRE***************/
+    .Backgroundbloc2{
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+    }
+    .Backgroundbloc2 .div1{
+        width: 100%;
+    }
+    .BackgroundImgPopulaire{
+        width: 30%;
+        display: inline-block;
+    }
+    .Backgroundbloc2 img {
+        border-radius: 20px 20px 0 0 ;
+    }
+
+    /********BLOC ACTIVITE MARSEILLE********/
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 25px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 3 / 2; }
+        .div2 { grid-area: 3 / 1 / 4 / 2; }
+        .div3 { grid-area: 4 / 1 / 5 / 2; }
+        .div4 { grid-area: 1 / 2 / 2 / 3; }
+        .div5 { grid-area: 2 / 2 / 3 / 3; }
+        .div6 { grid-area: 3 / 2 / 5 / 3; } 
+
+        .parent .div1 img{
+            height: 87%;
+        }
+        .parent .div2 img{
+            height: 87%;
+        }
+        .parent .dv3 img{
+            height: 87%;
+        }
+        .parent .div6 img{
+            height: 87%;
+        }
+        
 }
