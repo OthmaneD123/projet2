@@ -79,9 +79,10 @@ button{
 .filtres{
     display: flex;
     width: 80%;
-    align-items: center;
+    align-items:flex-start ;
     font-weight: bold;
 }
+
 .cadreicone{
     background-color: #DEEBFF;
     color: #0065FC;
@@ -96,7 +97,8 @@ button{
 }
 
 .borderfiltre{
-    display: flex;   
+    display: flex;
+       
 }
 .texticone {
     height: 40px;
@@ -122,6 +124,11 @@ button{
     margin-right: 15px;
     margin-left: 15px;
     color: blue;
+}
+ .filtres  a:hover  {
+    color: white;
+    background-color: black;
+   
 }
 
 
@@ -179,6 +186,7 @@ button{
  .Afficher_Plus{
      padding-left: 20px;
      font-weight: bold;
+     text-decoration: none;
     
  }
                             /*Populaire*/
@@ -232,7 +240,7 @@ margin: 0 5px 50px 5px;
 
 
 section .parent  div{
-    box-shadow: 5px 5px 3px #F2F2F2;
+    box-shadow: 5px 0px 3px #F2F2F2;
     border-radius:  20px;
     
 }
@@ -295,8 +303,6 @@ footer section div nav a {
     .LienHebergement{
         border-bottom: 2px solid #0065FC;
         border-top: none;
-        padding-bottom: 10px;
-        padding-top: 0;
         width: 50%;
         
     }
@@ -414,7 +420,7 @@ footer section div nav a {
         object-fit: cover;
     }
     section .parent div{
-        box-shadow: 5px 5px 3px #F2F2F2;
+        box-shadow: 5px 0px 3px #F2F2F2;
         margin-right: 15px;
         margin-left: 15px;
     }
@@ -445,12 +451,12 @@ footer section div nav a {
         width: 100%;
     }
 }
-@media all and (min-width:780px) {
+/*@media all and (min-width:780px) {
     .Grandbloc{
         flex-wrap: wrap;
     }
     /********BLOC HEBERGEMENT***************/
-    .Backgroundbloc1{
+    /*.Backgroundbloc1{
         width: 100%;
         margin: 0;
         margin-bottom: 15px;
@@ -459,8 +465,13 @@ footer section div nav a {
         width: 45%;
         flex-wrap: wrap;
     }
+ 
+
+    .BackgroundImgHebergement .TextImg{
+        text-align: center;
+    }
     /********BLOC POPULAIRE***************/
-    .Backgroundbloc2{
+    /*.Backgroundbloc2{
         width: 100%;
         margin: 0;
         margin-top: 15px;
@@ -476,33 +487,67 @@ footer section div nav a {
         border-radius: 20px 20px 0 0 ;
     }
 
+    .BackgroundImgPopulaire .TextImg {
+        margin-top: 2px;
+    }
+
+
     /********BLOC ACTIVITE MARSEILLE********/
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 15px;
-        grid-row-gap: 25px;
+     /*   .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-column-gap: 15px;
+            grid-row-gap: 25px;
         }
         
         .div1 { grid-area: 1 / 1 / 3 / 2; }
         .div2 { grid-area: 3 / 1 / 4 / 2; }
+        .div4 { grid-area: 3 / 2 / 5 / 3; }
         .div3 { grid-area: 4 / 1 / 5 / 2; }
-        .div4 { grid-area: 1 / 2 / 2 / 3; }
-        .div5 { grid-area: 2 / 2 / 3 / 3; }
-        .div6 { grid-area: 3 / 2 / 5 / 3; } 
+        .div5 { grid-area: 1 / 2 / 2 / 3; }
+        .div6 { grid-area: 2 / 2 / 3 / 3; } 
 
-        .parent .div1 img{
-            height: 87%;
+        section .parent  img {
+            width: 100%;
+            height: 130px;
+            border-radius: 15px 15px 0 0;
+            object-fit: cover;
         }
-        .parent .div2 img{
+
+        .parent div{
+            box-shadow: 5px 0px 3px #F2F2F2;
+        }-
+
+        .div1 img {
             height: 87%;
+            object-fit: cover;
         }
-        .parent .dv3 img{
+        .div2 img {
             height: 87%;
+            object-fit: cover;
         }
-        .parent .div6 img{
+        .div3 img {
             height: 87%;
+            object-fit: cover;
         }
-        
-}
+        .div4 img {
+            height: 87%;
+            object-fit: cover;
+        }
+        .div5 img {
+            height: 87%;
+            object-fit: cover;
+        }
+        .div6 img {
+            height: 87%;
+            object-fit: cover;
+        }
+
+   
+        section .parent div{
+            box-shadow: 5px 0px 3px #F2F2F2;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+}*/
