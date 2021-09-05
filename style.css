@@ -240,7 +240,7 @@ margin: 0 5px 50px 5px;
 
 
 section .parent  div{
-    box-shadow: 5px 0px 3px #F2F2F2;
+    box-shadow: 7px 7px #F2F2F2;
     border-radius:  20px;
     
 }
@@ -377,7 +377,7 @@ footer section div nav a {
     }
 
     .Border{
-        box-shadow: 5px 5px 2px #F2F2F2;
+        box-shadow: 5px 5px 0px #F2F2F2;
     }
   
                 /*******BLOC POPULAIRE********/
