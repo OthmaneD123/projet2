@@ -430,33 +430,26 @@ footer section div nav a {
         margin-bottom: 0px;
         font-weight: bold;
     }
-
-
-
             /*******FOOTERS********/
     .Footers{
         flex-direction: column;
-        align-items: center;   
+        padding-left: 35px; 
+       
     }
-    .Footers1{
-        
-        width: 100%;
+    .Footers a {
+        width: 100%3;
     }
+
     .Footers2{
-        
-        width: 100%;
-    }
-    .Footers3{
-        
-        width: 100%;
-    }
+        padding: 15px 0 15px 0;
+    }   
 }
-/*@media all and (min-width:780px) {
+@media all and (min-width:780px ) and (max-width:1240px) {
     .Grandbloc{
         flex-wrap: wrap;
     }
     /********BLOC HEBERGEMENT***************/
-    /*.Backgroundbloc1{
+    .Backgroundbloc1{
         width: 100%;
         margin: 0;
         margin-bottom: 15px;
@@ -471,7 +464,7 @@ footer section div nav a {
         text-align: center;
     }
     /********BLOC POPULAIRE***************/
-    /*.Backgroundbloc2{
+    .Backgroundbloc2{
         width: 100%;
         margin: 0;
         margin-top: 15px;
@@ -493,7 +486,7 @@ footer section div nav a {
 
 
     /********BLOC ACTIVITE MARSEILLE********/
-     /*   .parent {
+        .parent {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(4, 1fr);
@@ -517,7 +510,7 @@ footer section div nav a {
 
         .parent div{
             box-shadow: 5px 0px 3px #F2F2F2;
-        }-
+        }
 
         .div1 img {
             height: 87%;
@@ -550,4 +543,4 @@ footer section div nav a {
             margin-right: 15px;
             margin-left: 15px;
         }
-}*/
+}
