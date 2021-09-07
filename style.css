@@ -432,14 +432,9 @@ footer section div nav a {
     }
             /*******FOOTERS********/
     .Footers{
-        flex-direction: column;
-        padding-left: 35px; 
-       
+        flex-direction: column; 
     }
-    .Footers a {
-        width: 100%3;
-    }
-
+   
     .Footers2{
         padding: 15px 0 15px 0;
     }   
