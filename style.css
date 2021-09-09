@@ -24,6 +24,10 @@ body {
     padding: 30px;
     color: black;
 }
+a .LienActivite:hover {
+    border-top: 2px solid blue;
+    padding-top: 29px; 
+}
  .LienSinscrire{
     color: #0065FC;
     padding: 30px;  
@@ -55,25 +59,30 @@ nav img {
     border-radius: 20px;
 }
 input {
-    color:  black;
+    font-size: medium;
     font-weight: bold;
+    color: rgb(10, 10, 10);
     height: 40px;
     width: 200px;
+    font-family : 'Raleway', sans-serif ;
+    border: 1px solid #ddd;
 }
 .rechercher{
-    height: 50px;
+    height: 40px;
     width: 100px;
     color: white;
     font-weight: bold;
     background-color: blue;
     border-radius: 0 20px 20px 0 ;
-    margin-left: -15px;
+    margin-left: 0px;
+    
 }
 .Loupe{
     display: none;
 }
 button{
     border: none;
+    font-family : 'Raleway', sans-serif ;
 }
                             /* FILTRES */ 
 .filtres{
@@ -108,7 +117,7 @@ button{
     margin-left: -15px;
     border-radius: 0 20px 20px 0;
     border: 2px solid #F2F2F2;
-    box-shadow: 5px 5px 3px #F2F2F2 ;
+    
 }
 .TextInfo{
     display: flex;
@@ -124,11 +133,11 @@ button{
     margin-right: 15px;
     margin-left: 15px;
     color: blue;
+    font-size: medium;
 }
- .filtres  a:hover  {
+.filtres a:hover .texticone {
     color: white;
     background-color: black;
-   
 }
 
 
@@ -169,8 +178,15 @@ button{
     padding: 6px ;
 }
 .TextImg{
-    margin-top: -20px;
     padding-left: 25px;
+}
+.TextImg h5{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: medium;
+}
+.Grandbloc p {
+    margin-top: 0px;
 }
  .IconeStar{
      color: blue;
@@ -183,12 +199,15 @@ button{
      padding-top: 20px;
      padding-left: 20px;
  }
- .Afficher_Plus{
-     padding-left: 20px;
-     font-weight: bold;
-     text-decoration: none;
-    
+ .Grandbloc a {
+    text-decoration: none;
  }
+ .Afficher_Plus{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-weight: bold;
+    color: black;
+}
                             /*Populaire*/
 
 .Backgroundbloc2{
@@ -201,25 +220,33 @@ button{
      width: 100%;
      height: 110px;
      border-radius: 15px 0 0 15px;
+     object-fit: cover;
+     object-position: center bottom;
 }
 
  .BackgroundImgPopulaire{
     background-color: white;
-    margin: 40px 15px 50px 15px;
+    margin: 25px 15px 20px 15px;
+    padding: 5px;
     border-radius: 20px;
     display: flex;
     align-items: center;
 }
-.Titre{
-    padding-top: 20px;
-    padding-left: 20px;
-}
 
+.Backgroundbloc2 h3 {
+    display: flex;
+   justify-content: space-between;
+}
+.IconePopulaire{
+    padding-right: 25px;
+}
                             /*ACTIVITE A MARSEILLES*/   
 section .parent  img {
      width: 100%;
      height: 130px;
      border-radius: 15px 15px 0 0;
+     object-fit: cover;
+     object-position: center bottom;
  }
 .parent {
 display: grid;
@@ -350,13 +377,6 @@ footer section div nav a {
     .filtres h3 {
         width: 100%;
     }
-    
-    /*.Familial {
-        position: absolute;
-        top: 300px;
-        right: 0;
-        
-    }*/
 
                  /*******BLOC HEBERGEMENT********/
     .Grandbloc{
@@ -384,10 +404,10 @@ footer section div nav a {
     .Backgroundbloc2 {
         width: 100%;
         margin: 0;
+        border-radius: 0px;
     }
     .Backgroundbloc2 div {
         width: 90%;
-        
     }
 
                 /*******BLOC ACTIVITE A MARSEILLE********/
@@ -433,10 +453,14 @@ footer section div nav a {
             /*******FOOTERS********/
     .Footers{
         flex-direction: column; 
+       
     }
-   
+   .Footers1{
+        width: 100%;
+   }
     .Footers2{
         padding: 15px 0 15px 0;
+        width: 100%;
     }   
 }
 @media all and (min-width:780px ) and (max-width:1240px) {
