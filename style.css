@@ -296,7 +296,8 @@ section .parent .div4 p{
 .Footers{
     background-color: #F2F2F2;
     display: flex;
-    width: 100%;
+    width: calc(100% - 20px);/* Grace a cela je peux rajouter un padding de 20px sur la gauche sans que cela cause un debordement*/
+    padding-left: 20px;
 
     
 }
@@ -454,8 +455,9 @@ footer section div nav a {
             /*******FOOTERS********/
     .Footers{
         flex-direction: column; 
-       width: calc(33% - 20px);/* Grace a cela je peux rajouter un padding de 20px sur la gauche sans que cela cause un debordement*/
-       padding-left: 20px;
+        width: calc(100%- 20px);/* Grace a cela je peux rajouter un padding de 20px sur la gauche sans que cela cause un debordement*/
+        padding-left:20px;
+    
     }
    .Footers1{
         width: 100%;
