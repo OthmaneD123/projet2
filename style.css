@@ -378,7 +378,10 @@ footer section div nav a {
         border:none;
     }
     input{
-        width: 250px;
+        width: 280px;
+    }
+    .maps{
+        width: 90px;
     }
                 /*******FILTRES********/
     .filtres{
@@ -495,7 +498,6 @@ footer section div nav a {
         flex-wrap: wrap;
     }
  
-
     .BackgroundImgHebergement .TextImg{
         text-align: center;
     }
@@ -505,22 +507,21 @@ footer section div nav a {
         margin: 0;
         margin-top: 15px;
     }
-    .Backgroundbloc2 .div1{
-        width: 100%;
-    }
+  
     .BackgroundImgPopulaire{
-        width: 30%;
+        height: 170px;
+        width: auto;
         display: inline-block;
+    }
+    .TextImg{
+        padding-left: 2px;
+        padding-top: 5px;
     }
     .Backgroundbloc2 img {
         border-radius: 20px 20px 0 0 ;
+        width: 200px;
+        
     }
-
-    .BackgroundImgPopulaire .TextImg {
-        margin-top: 2px;
-    }
-
-
     /********BLOC ACTIVITE MARSEILLE********/
         .parent {
             display: grid;
